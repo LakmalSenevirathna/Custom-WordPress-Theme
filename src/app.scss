@@ -1,0 +1,55 @@
+@import 'bootstrap';
+
+$primary-color: rgb(255, 255, 255);
+$secondary-color: rgb(69, 199, 239);
+
+body{
+    background: $primary-color;
+}
+
+a{
+    text-decoration: none;
+}
+
+// Front-page
+.section__wrap{
+    padding: 2rem 0;
+}
+
+// Header
+header{
+    background: $secondary-color;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+
+header .top-bar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .top-bar li a{
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    color: $primary-color;
+    font-size: 1.1rem;
+}
+
+header .top-bar li:first-child a{
+    padding-left: 0;
+}
+
+header .top-bar li:last-child a{
+    padding-right: 0;
+}
+
+
